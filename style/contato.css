@@ -1,0 +1,35 @@
+.contato {
+  grid-column: 2 / 4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 90px 300px 1fr;
+  grid-gap: 20px;
+  margin-bottom: 4rem;
+}
+.titulo {
+  font-family: "Playfair Display SC", georgia;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  grid-column: 1 / 4;
+}
+.dados {
+  grid-column: 3;
+}
+
+.dados li {
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+}
+
+.dados li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background: #fb5;
+}
