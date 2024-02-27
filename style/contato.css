@@ -1,5 +1,5 @@
 .contato {
-  grid-column: 2 / 4;
+  /* grid-column: 2 / 4; */
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
